@@ -110,9 +110,10 @@ body {
 
 .cards {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   margin-top: 30px;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -120,6 +121,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  max-width: 250px;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .card-img {
