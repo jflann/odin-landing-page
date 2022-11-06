@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 100px;
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .hero-left {
@@ -140,7 +140,7 @@ body {
 
 .testimonial {
   background-color: #e5e7eb;
-  padding-inline: 20%;
+  padding-inline: 15%;
   padding-block: 50px;
   display: flex;
   flex-direction: column;
