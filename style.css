@@ -82,8 +82,13 @@ body {
   color: #e5e7eb;
   border-radius: 8px;
   padding: 8px 16px;
-  border: 0px;
+  border: 1px solid #3882f6;
   align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.signup:hover {
+  border: 1px solid #e5e7eb;
 }
 
 .hero-right {
@@ -176,11 +181,18 @@ body {
   padding-block: 30px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .cta-box .signup {
   border: 1px solid white;
   align-self: center;
+}
+
+.cta-box .signup:hover {
+  color:#1f2937;
+  background-color: #e5e7eb;
+  border: 1px solid #1f2937;
 }
 
 .footer {
