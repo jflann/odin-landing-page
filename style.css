@@ -158,3 +158,27 @@ body {
   align-self: flex-end;
   font-weight: bold;
 }
+
+.call-to-action {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-box {
+  color: white;
+  background-color: #3882f6;
+  box-sizing: border-box;
+  width: 60%;
+  margin-block: 80px;
+  border-radius: 24px;
+  padding-inline: 80px;
+  padding-block: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-box .signup {
+  border: 1px solid white;
+  align-self: center;
+}
