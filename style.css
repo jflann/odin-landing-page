@@ -64,7 +64,7 @@ body {
 .hero-main {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -73,6 +73,8 @@ body {
   font-size: 18px;
   margin: 0;
   margin-top: auto;
+  max-width: 500px;
+  flex-basis:0
 }
 
 .signup {
@@ -90,7 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  border-radius: 16px;
+  border-radius: 24px;
 }
 
 .info {
@@ -104,7 +106,7 @@ body {
 .info-header {
   color: #1f2937;
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 700;
   align-self: center;
 }
 
@@ -127,11 +129,32 @@ body {
 
 .card-img {
   border: 2px solid #3882f6;
-  border-radius: 6px;
+  border-radius: 24px;
   width: 150px;
   height: 150px;
 }
 
 .img-subtext {
   text-align: center;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding-inline: 20%;
+  padding-block: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial q {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.testimonial .cite {
+  align-self: flex-end;
+  font-weight: bold;
 }
