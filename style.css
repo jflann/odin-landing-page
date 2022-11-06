@@ -121,9 +121,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  max-width: 250px;
+  max-width: 225px;
   flex-grow: 1;
-  flex-basis: 0;
 }
 
 .card-img {
